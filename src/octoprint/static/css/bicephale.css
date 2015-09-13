@@ -351,6 +351,11 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     color: #ccc;
     cursor: default;
 }
+
+#navbar {
+  background-color: #397399;
+}
+
 #navbar .navbar-inner {
     background-color: #397399;
 }
