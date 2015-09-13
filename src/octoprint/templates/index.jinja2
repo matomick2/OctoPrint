@@ -3,9 +3,9 @@
     <head>
         <title data-bind="text: title">OctoPrint</title>
 
-        <link rel="shortcut icon" href="{{ url_for('static', filename='img/tentacle-32x32.png') }}">
-        <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='img/apple-touch-icon-114x114.png') }}">
-        <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='img/apple-touch-icon-144x144.png') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='img/bicephale/tentacle-32x32.png') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ url_for('static', filename='img/bicephale/apple-touch-icon-114x114.png') }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ url_for('static', filename='img/bicephale/apple-touch-icon-144x144.png') }}">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="mobile-web-app-capable" content="yes">
@@ -13,6 +13,7 @@
 
         {% include 'stylesheets.jinja2' %}
         {% include 'initscript.jinja2' %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bicephale.css') }}">
     </head>
     <body>
         <div class="page-container">
