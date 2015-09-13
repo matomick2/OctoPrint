@@ -651,7 +651,6 @@ def collect_plugin_assets(enable_gcodeviewer=True, preferred_stylesheet="css"):
 		assets["less"].append('less/octoprint.less')
 	elif preferred_stylesheet == "css":
 		assets["css"].append('css/octoprint.css')
-        assets["css"].append('css/bicephale.css')
 
 	asset_plugins = octoprint.plugin.plugin_manager().get_implementations(octoprint.plugin.AssetPlugin)
 	for implementation in asset_plugins:
