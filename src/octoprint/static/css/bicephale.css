@@ -144,8 +144,8 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
     color: #fff;
-    background-color: #04c;
-    *background-color: #003bb3;
+    background-color: #397399;
+    *background-color: #397399;
 }
 .btn-primary:active, .btn-primary.active {
     background-color: #039 \9;
