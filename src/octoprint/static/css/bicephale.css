@@ -352,15 +352,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     cursor: default;
 }
 #navbar .navbar-inner {
-    background-color: #397399; /**Bicephale's color !*/
-    /*background-image: -moz-linear-gradient(top, #fff, #ccc);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ccc));
-    background-image: -webkit-linear-gradient(top, #fff, #ccc);
-    background-image: -o-linear-gradient(top, #fff, #ccc);
-    background-image: linear-gradient(to bottom, #fff, #ccc);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffcccccc', GradientType=0);
-    */
+    background-color: #397399;
 }
 #navbar .navbar-inner .brand, #navbar .navbar-inner .nav>li>a {
     text-shadow: 0 1px 0 #fff;
@@ -390,47 +382,6 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     background-image: linear-gradient(to bottom, #ccc, #fff);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcccccc', endColorstr='#ffffffff', GradientType=0);
-}
-#navbar .navbar-inner.transparent {
-    background-color: rgba(235, 235, 235, 0.6);
-    background-image: "../img/bicephale/trans-background.png";
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0.6)), to(rgba(204, 204, 204, 0.6))), url("../img/bicephale/trans-background.png");
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgba(204, 204, 204, 0.6)), url("../img/bicephale/trans-background.png");
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99ffffff', endColorstr='#99cccccc', GradientType=0);
-}
-#navbar .navbar-inner.transparent .brand, #navbar .navbar-inner.transparent .nav>li>a {
-    text-shadow: 0 1px 0 #fff;
-    color: #333;
-}
-#navbar .navbar-inner.transparent .brand .caret, #navbar .navbar-inner.transparent .nav>li>a .caret {
-    border-bottom-color: #939393;
-    border-top-color: #939393;
-}
-#navbar .navbar-inner.transparent .brand:hover .caret, #navbar .navbar-inner.transparent .nav>li>a:hover .caret, #navbar .navbar-inner.transparent .brand:focus .caret, #navbar .navbar-inner.transparent .nav>li>a:focus .caret {
-    border-bottom-color: #636363;
-    border-top-color: #636363;
-}
-#navbar .navbar-inner.transparent .brand span {
-    background-image: url(../img/bicephale/tentacle-20x20.png);
-}
-@media(-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
-    #navbar .navbar-inner.transparent .brand span {
-    background-image: url(../img/bicephale/tentacle-20x20@2x.png);
-}
-}#navbar .navbar-inner.transparent .nav li.dropdown.open>.dropdown-toggle, #navbar .navbar-inner.transparent .nav li.dropdown.active>.dropdown-toggle, #navbar .navbar-inner.transparent .nav li.dropdown.open.active>.dropdown-toggle {
-    background-color: rgba(224, 224, 224, 0.6);
-    background-image: "../img/bicephale/trans-background.png";
-    background-image: -moz-linear-gradient(top, rgba(204, 204, 204, 0.6), rgba(255, 255, 255, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(204, 204, 204, 0.6)), to(rgba(255, 255, 255, 0.6))), url("../img/bicephale/trans-background.png");
-    background-image: -webkit-linear-gradient(top, rgba(204, 204, 204, 0.6), rgba(255, 255, 255, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: -o-linear-gradient(top, rgba(204, 204, 204, 0.6), rgba(255, 255, 255, 0.6)), url("../img/bicephale/trans-background.png");
-    background-image: linear-gradient(to bottom, rgba(204, 204, 204, 0.6), rgba(255, 255, 255, 0.6)), url("../img/bicephale/trans-background.png");
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99cccccc', endColorstr='#99ffffff', GradientType=0);
 }
 
 #navbar .navbar-inner .brand span {
