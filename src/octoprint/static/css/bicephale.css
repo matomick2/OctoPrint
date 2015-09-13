@@ -353,13 +353,14 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
 }
 #navbar .navbar-inner {
     background-color: #397399; /**Bicephale's color !*/
-    background-image: -moz-linear-gradient(top, #fff, #ccc);
+    /*background-image: -moz-linear-gradient(top, #fff, #ccc);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ccc));
     background-image: -webkit-linear-gradient(top, #fff, #ccc);
     background-image: -o-linear-gradient(top, #fff, #ccc);
     background-image: linear-gradient(to bottom, #fff, #ccc);
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffcccccc', GradientType=0);
+    */
 }
 #navbar .navbar-inner .brand, #navbar .navbar-inner .nav>li>a {
     text-shadow: 0 1px 0 #fff;
