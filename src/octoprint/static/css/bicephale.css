@@ -352,7 +352,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     cursor: default;
 }
 #navbar .navbar-inner {
-    background-color: #ebebeb;
+    background-color: #397399; /**Bicephale's color !*/
     background-image: -moz-linear-gradient(top, #fff, #ccc);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#ccc));
     background-image: -webkit-linear-gradient(top, #fff, #ccc);
