@@ -15,16 +15,16 @@ $(function() {
 
         self.fullbrand = ko.pureComputed(function() {
             if (self.name())
-                return gettext("OctoPrint") + ": " + self.name();
+                return gettext("Bicephale") + ": " + self.name();
             else
-                return gettext("OctoPrint");
+                return gettext("Bicephale");
         });
 
         self.title = ko.pureComputed(function() {
             if (self.name())
-                return self.name() + " [" + gettext("OctoPrint") + "]";
+                return self.name() + " [" + gettext("Bicephale") + "]";
             else
-                return gettext("OctoPrint");
+                return gettext("Bicephale");
         });
     }
 
