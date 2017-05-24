@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  OctoPrint\n"
 "Report-Msgid-Bugs-To: i18n@octoprint.org\n"
-"POT-Creation-Date: 2017-05-22 12:38+0000\n"
+"POT-Creation-Date: 2017-05-24 14:16+0000\n"
 "PO-Revision-Date: 2017-03-10 14:32+0100\n"
 "Last-Translator: Gina Häußge <osd@foosel.net>\n"
 "Language: de\n"
@@ -1187,10 +1187,6 @@ msgstr "Software Update"
 #: src/octoprint/plugins/softwareupdate/__init__.py:869
 #: src/octoprint/server/views.py:555
 #: src/octoprint/static/js/app/viewmodels/appearance.js:13
-#: src/octoprint/static/js/app/viewmodels/appearance.js:18
-#: src/octoprint/static/js/app/viewmodels/appearance.js:20
-#: src/octoprint/static/js/app/viewmodels/appearance.js:25
-#: src/octoprint/static/js/app/viewmodels/appearance.js:27
 #: src/octoprint/templates/dialogs/about/about.jinja2:1
 msgid "OctoPrint"
 msgstr "OctoPrint"
@@ -1897,6 +1893,13 @@ msgstr "Geschlossen"
 #: src/octoprint/static/js/app/main.js:154
 msgid "Transfering file to SD"
 msgstr "Sende Datei zu SD"
+
+#: src/octoprint/static/js/app/viewmodels/appearance.js:18
+#: src/octoprint/static/js/app/viewmodels/appearance.js:20
+#: src/octoprint/static/js/app/viewmodels/appearance.js:25
+#: src/octoprint/static/js/app/viewmodels/appearance.js:27
+msgid "Bicephale"
+msgstr ""
 
 #: src/octoprint/static/js/app/viewmodels/connection.js:42
 #: src/octoprint/templates/sidebar/connection.jinja2:13
