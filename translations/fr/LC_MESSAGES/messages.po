@@ -4598,3 +4598,8 @@ msgstr "Faire le rendu du timelapse"
 #~ msgid "Delete selected"
 #~ msgstr ""
 
+msgid "Cost"
+msgstr "Coût"
+
+msgid "Slicer"
+msgstr "Trancheur"
