@@ -3468,7 +3468,7 @@ msgstr "Charger et imprimer"
 
 #: src/octoprint/templates/sidebar/files.jinja2:48
 msgid "Free"
-msgstr "Libérer"
+msgstr "Libre"
 
 #: src/octoprint/templates/sidebar/files.jinja2:48
 msgid "Total"
@@ -3476,7 +3476,7 @@ msgstr "Total"
 
 #: src/octoprint/templates/sidebar/files.jinja2:53
 msgid "Create folder..."
-msgstr ""
+msgstr "Créer un répertoire"
 
 #: src/octoprint/templates/sidebar/files.jinja2:83
 msgid "Hint: You can also drag and drop files on this page to upload them."
