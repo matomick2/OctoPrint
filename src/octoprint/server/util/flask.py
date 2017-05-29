@@ -1312,7 +1312,6 @@ def collect_core_assets(enable_gcodeviewer=True, preferred_stylesheet="css"):
 	if preferred_stylesheet == "less":
 		assets["less"].append('less/octoprint.less')
 	elif preferred_stylesheet == "css":
-		assets["css"].append('css/octoprint.css')
         assets["css"].append('css/bicephale.css')
 
 	return assets
