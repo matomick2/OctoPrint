@@ -2337,7 +2337,7 @@ msgstr "Site par défaut"
 
 #: src/octoprint/templates/dialogs/files.jinja2:4
 msgid "Create Folder"
-msgstr "Créer un répertoire"
+msgstr "Créer un répertoire test"
 
 #: src/octoprint/templates/dialogs/files.jinja2:7
 msgid "Please specify the name of the folder to create."
