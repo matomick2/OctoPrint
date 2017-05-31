@@ -49,7 +49,7 @@ _instance = None
 def settings(init=False, basedir=None, configfile=None):
 	"""
 	Factory method for initially constructing and consecutively retrieving the :class:`~octoprint.settings.Settings`
-	singleton.
+	singleton.test
 
 	Arguments:
 	    init (boolean): A flag indicating whether this is the initial call to construct the singleton (True) or not
