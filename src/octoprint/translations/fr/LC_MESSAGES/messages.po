@@ -1605,7 +1605,7 @@ msgstr "quelques secondes"
 
 #: src/octoprint/static/js/app/helpers.js:494
 msgid "less than a minute"
-msgstr "moins d'une minite"
+msgstr "moins d'une minute"
 
 #: src/octoprint/static/js/app/helpers.js:503
 msgid "YYYY-MM-DD HH:mm"
@@ -3268,7 +3268,7 @@ msgstr "Total"
 
 #: src/octoprint/templates/sidebar/files.jinja2:53
 msgid "Create folder..."
-msgstr "Créer un répertoire  test..."
+msgstr "Créer un répertoire..."
 
 #: src/octoprint/templates/sidebar/files.jinja2:83
 msgid "Hint: You can also drag and drop files on this page to upload them."
