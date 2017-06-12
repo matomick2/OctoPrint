@@ -354,7 +354,7 @@ def index():
 
 		render_kwargs.update(dict(
 			webcamStream=settings().get(["webcam", "stream"]),
-			enableTemperatureGraph=settings().get(["feature", "temperatureGraph"]),
+			enableTemperatureGraph=True#settings().get(["feature", "temperatureGraph"]),
 			enableAccessControl=enable_accesscontrol,
 			accessControlActive=accesscontrol_active,
 			enableSdSupport=settings().get(["feature", "sdSupport"]),
