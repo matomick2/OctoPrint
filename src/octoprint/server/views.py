@@ -355,8 +355,8 @@ def index():
 		render_kwargs.update(dict(
 			webcamStream=settings().get(["webcam", "stream"]),
 			enableTemperatureGraph=True,#settings().get(["feature", "temperatureGraph"]),
-			enableAccessControl=enable_accesscontrol,
-			accessControlActive=accesscontrol_active,
+			enableAccessControl=True,#enable_accesscontrol,
+			accessControlActive=True,#accesscontrol_active,
 			enableSdSupport=settings().get(["feature", "sdSupport"]),
 			gcodeMobileThreshold=settings().get(["gcodeViewer", "mobileSizeThreshold"]),
 			gcodeThreshold=settings().get(["gcodeViewer", "sizeThreshold"]),
