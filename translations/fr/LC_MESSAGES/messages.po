@@ -1605,7 +1605,7 @@ msgstr "quelques secondes"
 
 #: src/octoprint/static/js/app/helpers.js:494
 msgid "less than a minute"
-msgstr "moins d'une minite"
+msgstr "moins d'une minute"
 
 #: src/octoprint/static/js/app/helpers.js:503
 msgid "YYYY-MM-DD HH:mm"
