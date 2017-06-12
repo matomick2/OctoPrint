@@ -382,6 +382,11 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini {
     border-bottom-color: #939393;
     border-top-color: #939393;
 }
+
+#navbar .navbar-inner .nav>li>div>p, #navbar .navbar-inner .nav>li>p {
+    color: #fff;
+}
+
 #navbar .navbar-inner .brand:hover .caret, #navbar .navbar-inner .nav>li>a:hover .caret, #navbar .navbar-inner .brand:focus .caret, #navbar .navbar-inner .nav>li>a:focus .caret {
     border-bottom-color: #636363;
     border-top-color: #636363;
