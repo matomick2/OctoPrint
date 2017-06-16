@@ -222,13 +222,14 @@ def printerPrintheadCommand():
 	valid_commands = {
 		"jog": [],
 		"home": ["axes"],
+		"fanspeed": ["speed"],
 		"feedrate": ["factor"]
 	}
 	command, data, response = get_json_command_from_request(request, valid_commands)
 	if response is not None:
 		return response
 
-	if not printer.is_operational() or (printer.is_printing() and command != "feedrate"):
+	if not printer.is_operational() or (printer.is_printing() and command != "feedrate" and command != "fanspeed":
 		# do not jog when a print job is running or we don't have a connection
 		return make_response("Printer is not operational or currently printing", 409)
 
