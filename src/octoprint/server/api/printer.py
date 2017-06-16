@@ -222,7 +222,6 @@ def printerPrintheadCommand():
 	valid_commands = {
 		"jog": [],
 		"home": ["axes"],
-		"fanspeed": ["speed"],
 		"feedrate": ["factor"]
 	}
 	command, data, response = get_json_command_from_request(request, valid_commands)
@@ -262,13 +261,6 @@ def printerPrintheadCommand():
 
 		# execute the home command
 		printer.home(validated_values)
-
-	#fanspeed
-	elif command == "fanspeed":
-		validated_values = []
-		speed = data["speed"]
-		# execute the home command
-		printer.fanspeed(speed)
 
 	elif command == "feedrate":
 		factor = data["factor"]

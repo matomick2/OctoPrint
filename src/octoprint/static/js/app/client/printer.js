@@ -128,17 +128,6 @@
         return this.issuePrintheadCommand("feedrate", payload, opts);
     };
 
-    OctoPrintPrinterClient.prototype.setFanSpeed = function (speed, opts) {
-
-        speed = speed || 100;
-
-        var payload = {
-            speed: speed
-        };
-
-        return this.issuePrintheadCommand("fanspeed", payload, opts);
-    };
-
     OctoPrintPrinterClient.prototype.setToolTargetTemperatures = function (targets, opts) {
         targets = targets || {};
 

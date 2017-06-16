@@ -301,10 +301,6 @@ class Printer(PrinterInterface, comm.MachineComPrintCallback):
 
 		self.commands(["G91", "G28 %s" % " ".join(map(lambda x: "%s0" % x.upper(), validated_axes)), "G90"])
 
-	def fanspeed(self, speed):
-		command = "M106 S"+str(speed)
-		self.commands([command])
-
 	def extrude(self, amount):
 		if not isinstance(amount, (int, long, float)):
 			raise ValueError("amount must be a valid number: {amount}".format(amount=amount))
