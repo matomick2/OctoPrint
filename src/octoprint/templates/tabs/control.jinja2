@@ -90,8 +90,10 @@
         <button class="btn btn-block control-box" data-bind="enable: isOperational() && !isPrinting() && loginState.isUser(), click: function() { $root.sendRetractCommand() }">{{ _('Retract') }}</button>
 
         <!-- Flow rate -->
-        <input style="width: 100px" type="number" data-bind="slider: {min: 75, max: 125, step: 1, value: flowRate, tooltip: 'hide'}">
-        <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendFlowRateCommand() }">{{ _('Flow rate:') }}<span data-bind="text: flowRate() + '%'"></span></button>
+        <div id="control-jog-fanspeed" class="jog-panel">
+            <input style="width: 100px" type="number" data-bind="slider: {min: 75, max: 125, step: 1, value: flowRate, tooltip: 'hide'}">
+            <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendFlowRateCommand() }">{{ _('Flow rate:') }}<span data-bind="text: flowRate() + '%'"></span></button>
+        </div>
     </div>
 </div>
 <!-- General control panel -->
