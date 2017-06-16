@@ -229,7 +229,7 @@ def printerPrintheadCommand():
 	if response is not None:
 		return response
 
-	if not printer.is_operational() or (printer.is_printing() and command != "feedrate":
+	if not printer.is_operational() or (printer.is_printing() and command != "feedrate" and command != "fanspeed"):
 		# do not jog when a print job is running or we don't have a connection
 		return make_response("Printer is not operational or currently printing", 409)
 
