@@ -280,6 +280,10 @@ $(function() {
             OctoPrint.printer.setFlowrate(self.flowRate());
         };
 
+        self.sendFanSpeed = function () {
+            OctoPrint.printer.setFanSpeed(self.fanSpeed());
+        };
+
         self._sendECommand = function (dir) {
             var length = self.extrusionAmount() || self.settings.printer_defaultExtrusionLength();
             OctoPrint.printer.extrude(length * dir);

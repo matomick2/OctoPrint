@@ -262,6 +262,13 @@ def printerPrintheadCommand():
 		# execute the home command
 		printer.home(validated_values)
 
+	#fanspeed
+	elif command == "fanspeed":
+		validated_values = []
+		speed = data["speed"]
+		# execute the home command
+		printer.fanspeed(speed)
+
 	elif command == "feedrate":
 		factor = data["factor"]
 		if not isinstance(factor, (int, long, float)):
