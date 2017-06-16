@@ -3212,7 +3212,7 @@ msgid ""
 "the\n"
 "                    web interface now by clicking the button below.\n"
 "                "
-msgstr ""
+msgstr "\nLe serveur est maintenant actif, veuillez recharger..."
 
 #: src/octoprint/templates/sidebar/connection.jinja2:8
 msgid "Save connection settings"
@@ -3731,7 +3731,7 @@ msgstr "Arrêt ventilateur"
 
 #: src/octoprint/templates/tabs/control.jinja2:103
 msgid "Fan speed:"
-msgstr "Vitesse de ventilation"
+msgstr "Vitesse de ventil.:"
 
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:11
 msgid "Previous layer"
