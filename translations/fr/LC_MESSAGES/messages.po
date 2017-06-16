@@ -3729,6 +3729,10 @@ msgstr "Marche ventilateur"
 msgid "Fan off"
 msgstr "Arrêt ventilateur"
 
+#: src/octoprint/templates/tabs/control.jinja2:103
+msgid "Fan speed:"
+msgstr "Vitesse de ventilation"
+
 #: src/octoprint/templates/tabs/gcodeviewer.jinja2:11
 msgid "Previous layer"
 msgstr ""
