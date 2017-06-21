@@ -130,7 +130,7 @@
 
     OctoPrintPrinterClient.prototype.setFanSpeed = function (speed, opts) {
 
-        speed = speed || 100;
+        speed = speed || 0;
 
         var payload = {
             speed: speed
