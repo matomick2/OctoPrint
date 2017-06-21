@@ -102,10 +102,8 @@
         <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendCustomCommand({type:'command',command:'M106 S255'}) }">{{ _('Fan on') }}</button>
         <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendCustomCommand({type:'command',command:'M106 S0'}) }">{{ _('Fan off') }}</button>
 
-        <div>
-        <!-- on laisse un espace -->
-        
-        </div>
+        <!-- on passe une ligne -->
+        <br>
 
         <!-- Fan Speed -->
         <input style="width: 100px" type="number" data-bind="slider: {min: 5, max: 255, step: 10, value: fanSpeed, tooltip: 'hide'}">
