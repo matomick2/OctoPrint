@@ -108,7 +108,7 @@
 
         <!-- Fan Speed -->
         <input style="width: 100px" type="number" data-bind="slider: {min: 0, max: 255, step: 10, value: fanSpeed, tooltip: 'hide'}">
-        <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendFanSpeed() }">{{ _('Fan speed:') }}<span data-bind="text: fanSpeed() + 'pwm'"></span></button>
+        <button class="btn btn-block control-box" data-bind="enable: isOperational() && loginState.isUser(), click: function() { $root.sendFanSpeed() }">{{ _('Fan speed:') }}<span data-bind="text: fanSpeed()"></span></button>
     </div>
 </div>
 
