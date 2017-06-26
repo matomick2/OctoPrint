@@ -253,7 +253,7 @@ msgstr "Axes"
 #: src/octoprint/plugins/corewizard/templates/corewizard_printerprofile_wizard.jinja2:10
 #: src/octoprint/templates/snippets/settings/printerprofiles/profileEditor.jinja2:12
 msgid "Hotend & extruder"
-msgstr ""
+msgstr "Hotend & extruder"
 
 #: src/octoprint/plugins/corewizard/templates/corewizard_servercommands_wizard.jinja2:3
 msgid ""
