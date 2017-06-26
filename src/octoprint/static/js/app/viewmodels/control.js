@@ -29,7 +29,7 @@ $(function() {
         self.tools = ko.observableArray([]);
 
         self.feedRate = ko.observable(100);
-        self.fanSpeed = ko.observable(125);
+        self.fanSpeed = ko.observable(50);
         self.flowRate = ko.observable(100);
 
         self.feedbackControlLookup = {};

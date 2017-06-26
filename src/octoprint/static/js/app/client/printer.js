@@ -132,6 +132,8 @@
 
         speed = speed || 0;
 
+        speed = speed * 2.55;
+
         var payload = {
             speed: speed
         };
