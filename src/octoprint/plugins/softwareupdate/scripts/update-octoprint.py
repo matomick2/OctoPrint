@@ -285,6 +285,7 @@ def parse_arguments():
 
 def main():
 	args = parse_arguments()
+	print(">>> test martin bordel")
 
 	git_executable = None
 	if args.git_executable:
