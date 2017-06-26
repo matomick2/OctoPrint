@@ -239,6 +239,7 @@ def update_source(git_executable, folder, target, force=False, branch=None):
 
 
 def install_source(python_executable, folder, user=False, sudo=False):
+	print(">>> test martin bordel 2 ")
 	print(">>> Running: python setup.py clean")
 	returncode, stdout, stderr = _python(["setup.py", "clean"], folder, python_executable)
 	if returncode is None or returncode != 0:
@@ -285,7 +286,6 @@ def parse_arguments():
 
 def main():
 	args = parse_arguments()
-	print(">>> test martin bordel")
 
 	git_executable = None
 	if args.git_executable:
