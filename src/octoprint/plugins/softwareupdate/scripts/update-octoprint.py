@@ -239,7 +239,6 @@ def update_source(git_executable, folder, target, force=False, branch=None):
 
 
 def install_source(python_executable, folder, user=False, sudo=False):
-	print(">>> test martin bordel 2 ")
 	print(">>> Running: python setup.py clean")
 	returncode, stdout, stderr = _python(["setup.py", "clean"], folder, python_executable)
 	if returncode is None or returncode != 0:
@@ -254,6 +253,12 @@ def install_source(python_executable, folder, user=False, sudo=False):
 	if returncode is None or returncode != 0:
 		raise RuntimeError("Could not update, \"python setup.py install\" failed with returncode {}".format(returncode))
 
+def custom_script(python_executable, folder, user=False, sudo=False):
+	print(">>> custom script")
+	returncode, stdout, stderr = _python(["update_script/update.py"], folder, python_executable)
+	if returncode is None or returncode != 0:
+		print("\"python update_script/update.py\" failed with returncode {}".format(returncode))
+		print("Continuing anyways")
 
 def parse_arguments():
 	import argparse
@@ -308,7 +313,8 @@ def main():
 		raise RuntimeError("Could not update, base folder is not writable")
 
 	update_source(git_executable, folder, args.target, force=args.force, branch=args.branch)
-	install_source(python_executable, folder, user=args.user, sudo=args.sudo)
+	custom_script(python_executable, folder, user=args.user, sudo=args.sudo)
+	#install_source(python_executable, folder, user=args.user, sudo=args.sudo)
 
 if __name__ == "__main__":
 	main()
