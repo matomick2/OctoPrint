@@ -314,7 +314,7 @@ def main():
 
 	update_source(git_executable, folder, args.target, force=args.force, branch=args.branch)
 	custom_script(python_executable, folder, user=args.user, sudo=args.sudo)
-	#install_source(python_executable, folder, user=args.user, sudo=args.sudo)
+	install_source(python_executable, folder, user=args.user, sudo=args.sudo)
 
 if __name__ == "__main__":
 	main()
