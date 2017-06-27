@@ -1468,7 +1468,7 @@ msgstr "Vous êtes sur le point de redémarrer le serveur OctoPrint."
 
 #: src/octoprint/server/api/system.py:158
 msgid "Restart OctoPrint in safe mode"
-msgstr ""
+msgstr "Redémarrer en mode sans échec"
 
 #: src/octoprint/server/api/system.py:159
 msgid "You are about to restart the OctoPrint server in safe mode."
