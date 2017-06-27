@@ -148,16 +148,16 @@ def _get_core_command_specs():
 		reboot=dict(
 			command=s().get(["server", "commands", "systemRestartCommand"]),
 			name=gettext("Reboot system"),
-			confirm=gettext("You are about to reboot the system.")),
-		restart=dict(
-			command=s().get(["server", "commands", "serverRestartCommand"]),
-			name=gettext("Restart OctoPrint"),
-			confirm=gettext("You are about to restart the OctoPrint server.")),
-		restart_safe=dict(
-			command=s().get(["server", "commands", "serverRestartCommand"]),
-			name=gettext("Restart OctoPrint in safe mode"),
-			confirm=gettext("You are about to restart the OctoPrint server in safe mode."),
-			before=enable_safe_mode)
+			confirm=gettext("You are about to reboot the system."))#,
+		#restart=dict(
+		#	command=s().get(["server", "commands", "serverRestartCommand"]),
+		#	name=gettext("Restart OctoPrint"),
+		#	confirm=gettext("You are about to restart the OctoPrint server.")),
+		#restart_safe=dict(
+		#	command=s().get(["server", "commands", "serverRestartCommand"]),
+		#	name=gettext("Restart OctoPrint in safe mode"),
+		#	confirm=gettext("You are about to restart the OctoPrint server in safe mode."),
+		#	before=enable_safe_mode)
 	)
 
 	available_commands = collections.OrderedDict()
