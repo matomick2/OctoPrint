@@ -339,7 +339,7 @@ default_settings = {
 			"numExtruders": 1,
 			"includeCurrentToolInTemps": True,
 			"includeFilenameInOpened": True,
-			"hasBed": True,
+			"hasBed": False,
 			"repetierStyleTargetTemperature": False,
 			"repetierStyleResends": False,
 			"okBeforeCommandOutput": False,

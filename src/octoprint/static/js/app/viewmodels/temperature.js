@@ -18,7 +18,7 @@ $(function() {
         };
 
         self.tools = ko.observableArray([]);
-        self.hasBed = ko.observable(true);
+        self.hasBed = ko.observable(false);
         self.bedTemp = self._createToolEntry();
         self.bedTemp["name"](gettext("Bed"));
         self.bedTemp["key"]("bed");
