@@ -2399,7 +2399,7 @@ msgstr "Sélectionnez un profil d'imprimante"
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:39
 msgid "Output Filename"
-msgstr ""
+msgstr "Nom de fichier sortant"
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:48
 msgid "After slicing..."
