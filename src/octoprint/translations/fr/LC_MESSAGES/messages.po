@@ -1786,6 +1786,14 @@ msgstr "Tranchage ..."
 msgid "Slicing done"
 msgstr "Tranchage terminé"
 
+#: src/octoprint/static/js/app/viewmodels/files.js:874
+msgid "Slicing disabled - currently printing or no model loaded."
+msgstr "Slicer désactivé - impression en cours, ou aucun modèle chargé."
+
+#: src/octoprint/static/js/app/viewmodels/files.js:874
+msgid "Slice it!"
+msgstr "Démarrer le Slice!"
+
 #: src/octoprint/static/js/app/viewmodels/files.js:875
 #, python-format
 msgid "Sliced %(stl)s to %(gcode)s, took %(time).2f seconds"
@@ -2400,6 +2408,14 @@ msgstr "Sélectionnez un profil d'imprimante"
 #: src/octoprint/templates/dialogs/slicing.jinja2:39
 msgid "Output Filename"
 msgstr "Nom de fichier sortant"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:39
+msgid "Advanced"
+msgstr "Avancé"
+
+#: src/octoprint/templates/dialogs/slicing.jinja2:39
+msgid "Basic"
+msgstr "Basique"
 
 #: src/octoprint/templates/dialogs/slicing.jinja2:48
 msgid "After slicing..."
