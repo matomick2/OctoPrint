@@ -1904,7 +1904,7 @@ msgstr "Identification réussie"
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:87
 #, python-format
 msgid "You are now logged in as \"%(username)s\""
-msgstr "Vous êtes maintenant connecter en tant que  \"%(username)s\""
+msgstr "Vous êtes maintenant connecté en tant que  \"%(username)s\""
 
 #: src/octoprint/static/js/app/viewmodels/loginstate.js:99
 msgid "Login failed"
